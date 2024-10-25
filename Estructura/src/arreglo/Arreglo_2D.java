@@ -10,8 +10,10 @@ public class Arreglo_2D {
 		
 		//Se define las filas y las columnas 
 		
-		int rows = 4;
-		int column = 5;
+		 System.out.println("Ingrese la cantidad de filas de la matriz: ");
+		int rows = sc.nextInt();
+		System.out.println("Ingrese la cantidad de columnas de la matriz: ");
+		int column = sc.nextInt();
 		
 		//Se crea el arreglo 
 		int [] [] toto = new int [rows] [column];
